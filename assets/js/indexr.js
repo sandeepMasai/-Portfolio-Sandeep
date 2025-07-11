@@ -8,7 +8,7 @@ function openAndDownloadPDF() {
     // 2. Create a hidden download link and click it
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'SandeepKumarResume.pdf'; // Optional: custom filename
+    link.download = 'SandeepKumarResume.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
